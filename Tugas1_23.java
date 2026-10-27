@@ -33,6 +33,7 @@ public class Tugas1_23 {
             totalPenjualan += hargaBayar;
 
         }
+        
             System.out.println("Total tiket yang terjual: " + totalTiket);
             System.out.println("Total penjualan: Rp " + totalPenjualan);
 

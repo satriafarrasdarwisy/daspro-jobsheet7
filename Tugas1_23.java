@@ -19,10 +19,10 @@ public class Tugas1_23 {
             hargaBayar = jumlahTiket * tiket;
 
             if (jumlahTiket > 10) {
-                hargaBayar = hargaBayar * 0.15;
+                hargaBayar = hargaBayar - (hargaBayar * 0.15);
                 System.out.println("Anda mendapat diskon 15%");
             } else if (jumlahTiket > 4) {
-                hargaBayar = hargaBayar * 0.1;
+                hargaBayar = hargaBayar - (hargaBayar * 0.10);
                 System.out.println("Anda mendapat diskon 10%");
             } else {
                 System.out.println("Anda tidak mendapat diskon");
@@ -33,7 +33,7 @@ public class Tugas1_23 {
             totalPenjualan += hargaBayar;
 
         }
-        
+
             System.out.println("Total tiket yang terjual: " + totalTiket);
             System.out.println("Total penjualan: Rp " + totalPenjualan);
 
